@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            h2{text-align:center; color:black;}
+        </style>
+    </head>
+    <body style="background-color:hsl(178,100%,73%);">
+        <h2>Alumni Registration Form</h2>
+        <form action="/action_page.php">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" value=""><br>
+        
+        <br>
+        
+        <label for="fathersname">Father's Name:</label>
+        <input type="text" id="fathersname" ><br>
+        
+        <br>
+        
+        <label for="DOB">Date of birth:</label>
+        <input type="text" id="DOB"><br>
+        
+        <br>
+        
+        <label for="Gen">Gender:</label>
+        <input type="radio" id="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female">
+        <label for="female">Female</label><br>
+        
+        <br>
+        
+        <label for="degree">Degree:</label>
+        <input type="text" id="degree"><br>
+        
+        <br>
+        
+        <label for="branch">Branch:</label>
+        <input type="text" id="branch"><br>
+        
+        <br>
+        
+        <label for="yop">Year of passing:</label>
+        <input type="text" id="yop"><br>
+        
+        <br>
+        
+        <label for="ms">Marital status:</label>
+        <input type="radio" id="yes">
+        <label for="yes">Yes</label>
+        <input type="radio" id="no">
+        <label for="no">No</label><br>
+        
+        <br>
+        
+        <label for="Tno">Telephone no:</label>
+        <input type="text" id="Tno"><br>
+        
+        <br>
+        
+        <label for="Mno">Mobile no:</label>
+        <input type="text" id="Mno"><br>
+        
+        <br>
+        
+        <label for="AMno">Alternate Mobile no:</label>
+        <input type="text" id="AMno"><br>
+        <br>
+        
+        <label for="Eid">E-mail ID:</label>
+        <input type="text" id="Eid"><br>
+        <br>
+        
+        <label for="CA">Current Address</label>
+        <input style="height:70px;width:400px;">
+        <label for="PA">Permanent Address</label>
+        <input style="height:70px;width:400px;"><br>
+        <br>
+        
+        <label for="SA">Special Achievements</label>
+        <input style="height:70px;width:700px;"><br>
+        <br>
+        
+        <label for="SAG">Special Achievements after Graduation</label>
+        <input style="height:70px;width:700px;"><br>
+        <br>
+        
+        <label for="gate">GATE</label>
+        <input type="text" id="gate"><br>
+        <br>
+        
+        <label for="gre">GRE</label>
+        <input type="text" id="gre"><br>
+        <br>
+        
+        <label for="HS"><b>Details of Higher Studies,if applicable:<br>INDIA/ABROAD</b></label><br>
+        <label for="CN">Course Name:</label>
+        <input type="text" id="CN"><br>
+        <br>
+        <label form="spec">Specialization:</label>
+        <input type="text" id="spec"><br>
+        <br>
+        <label for="university">University:</label>
+        <input type="text" id="university"><br>
+        <br>
+        <label for="address">Address:</label>
+        <input style="height:70px;width:400px;"><br>
+        <br>
+        
+        <label for="WI"><b>Work Information:<br>INDIA/ABROAD</b></label><br>
+        <label for="employee">Employer:</label>
+        <input type="text" id="employee"><br>
+        <br>
+        <label for="OPno">Office phone no:</label>
+        <input type="text" id="OPno">
+        <label for="OE">Official email:</label>
+        <input type="text" id="OE"><br>
+        <br>
+        <label for="FOW">Feild of work:</label>
+        <input style="height:70px;width:700px;"><br>
+        <br>
+        
+        <label for="DOE"><b>Details of Entrepreneurship,<br>if applicable:<br>INDIA/ABROAD</b></label><br>
+        <label for="name">Name of the Organization:</label>
+        <input type="text" id="name"><br>
+        <br>
+        <label for="address">Address:</label>
+        <input style="height:70px;width:700px;"><br>
+        <br>
+        <label for="products">Products/Services offered:</label>
+        <input type="text" id="products"><br>
+        <br>
+        <label for="suggestions">Suggestions for the growth:</label>
+        <input style="height:70px;width:800px;"><br>
+        <br>
+        <label for="upload">Upload Image</label>
+        <button type="button" onclick="alert('Hello World!')">Choose File</button>
+        <label for="nofile">No file chosen</label><br>
+        <button type="button" onclick="alret('Hello World')">Reset</button>
+        <button type="button" onclick="alret('Hello World')">Submit Form</button>
+        
+    </body>
+</html>
+
+
