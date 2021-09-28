@@ -1,1 +1,17 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+    <title style="color:red;">NATURE</title>
+</head>
+<body>
+<header>
+    <h1>"Nature"<em>(Heading)</em></h1>
+    <h4>"It's Importance"<em>(subheading)</em></h4>
+</header>
+<p style="background-color:lightgreen;"><u>"Nature"</u></p>
+<p><em> in the broadest sense, is the <u> natural,physical,material world or universe </u>.</em></p>
+<p style="font-size:10px;">It can also refer to the phenomenon of the physical world,and also to life in general</p>
+</body>
+</html>
+© 2021 GitHub, Inc.
+Terms
